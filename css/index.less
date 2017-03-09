@@ -1,0 +1,93 @@
+@coff:#e69138;
+@coffword:#71512a;
+@cofftitle:#ae9a82;
+@darkcoff:#c3a879;
+@white:#fff;
+@lightercoff:#f0b679;
+@mainW:1200px;
+@gray:#ccc7bf;
+@red:#f60;
+
+html, body, h1, h2, h3, h4, h5, ul, li, ol, dl, dt, dd, form, p, input, textarea {
+	margin: 0;
+	padding: 0;
+}
+a, input, div, textarea {
+	outline: none;
+}
+ul, dl, ol {
+	list-style: none;
+}
+i{font-style: normal;}
+a{text-decoration: none;color: @coffword;}
+a:hover{color:@coff;}
+body{font-family: 'Microsoft YaHei';font-size: 14px;}
+h5{font-size: 2em;}
+
+.clear{clear: both;height: 0;line-height: 0;}
+.mgt10{margin-top: 10px;}
+.mgr10{margin-right: 10px;}
+.fl{float: left;}
+.fr{float: right;}
+.red{color: @red !important;}
+.disnone{display: none;}
+
+#head{background:@coff;height: 80px;color:@white;position: fixed;width: 100%;z-index:99;}
+#head .cont{position: relative;}
+.cont{width: @mainW;margin:0 auto;overflow: hidden;}
+.logo{position:absolute;top:11px;left:0;width: 277px;height: 57px;background: url(../imgs/logo.png) no-repeat;}
+.nav{float: right;}
+.nav a{display: inline-block;height: 80px;line-height:80px;text-align: center;width: 120px;color: #fff;}
+.nav a:hover,.nav a.on{background-color:@lightercoff;}
+
+#round{height: 480px;overflow: hidden;}
+#round ul li{float: left;}
+
+#content{background-color:@white;min-height:100px;}
+#content .msg{height: 160px;text-align: center;padding: 20px 0;}
+#content .msg h5{margin: 10px 0;font-weight: normal;}
+#content .msg p{line-height: 2em;}
+#content .msg .aboutus{margin-top:30px;}
+
+.news{width:650px;overflow: hidden;}
+.title{font-size: 18px;font-weight: 600;color: @cofftitle;height: 2em;border-bottom: 1px dotted @darkcoff;}
+.title .more{font-size: 14px;float: right;color: @coffword;margin-top:.5em;font-weight: 400;}
+.title .more:hover{color: @coff;}
+.newslist li{padding: 10px 0;border-top: 1px dashed @darkcoff;}
+.newslist li:first-child{border-top:0px;}
+.newslist li p.newtitle a{color:@coffword;}
+.newslist li p.newtitle a:hover{color: @coff;}
+.newslist li p.date{color:@gray;font-size: 10px;}
+
+#marquee{height: 300px;background-color:@darkcoff;position: relative;}
+#marquee .cont{position: relative;height: 300px;}
+.title-vertical{position: absolute;width: 36px;height: 270px;border: 3px solid #333;top: 12px;background-color:@darkcoff;z-index:1;}
+.title-vertical .t{display: block; width: 80px;height: 32px;background-color:@darkcoff;position: absolute;top: 10px;left: 16px;padding-right:10px;}
+.title-vertical .t i{display: block;height: 24px;line-height: 24px;text-align: center;font-size: 14px;background-color: @coff;color:@white;font-style: normal;}
+.title-vertical-l{height: 20px;overflow: visible;border-bottom: 1px dotted #333;position: absolute;width: 100%;top: 20px;text-align: right;}
+.title-vertical-l a:hover{color: @white;}
+.marqueelist{margin:50px 0 0 50px;}
+.marqueelist li{float: left;width: 270px;height: 220px;margin: 8px;background-color:#aaa;position: relative;overflow: hidden;}
+.marqueelist li img{width: 270px;height: 220px;}
+.marqueelist li div{height: 100px;background:rgba(0,0,0,0.8);color: #fff;position: absolute;width: 100%;left: 0;bottom: -100px;transition:bottom .2s;-webkit-transition:bottom .2s;}
+.marqueelist li:hover div{bottom: 0;}
+.marqueelist li div p{margin: 10px;}
+
+.address{width: 650px;padding: 10px;overflow: hidden;border: 1px solid @coff;height: 350px;}
+.address p{color: @coffword;}
+.map{height: 240px;}
+
+.contectus{width: 500px;color: @coffword;}
+.contectus p{margin-bottom: 10px;}
+.contectus label{line-height: 2em;}
+
+.banner{padding: 10px 0;}
+.banner img{width: 100%;}
+
+#foot{background:@coff;height: 80px;color: #fff;margin-top: 10px;}
+
+.aboutus{color: @coff;padding: 10px 50px;border: 1px solid @coff;border-radius:4px;}
+.aboutus:hover{color:@white;background-color:@coff;}
+.inpsty1{height: 32px;line-height: 32px;border: 1px dashed #aaa;background-color:#eee;width: 90%;padding: 0 10px;}
+.textareasty1{border: 1px dashed #aaa;background-color: #eee;width: 90%;padding: 10px;font-family: 'Micfosoft YaHei';}
+

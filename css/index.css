@@ -1,0 +1,317 @@
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+ul,
+li,
+ol,
+dl,
+dt,
+dd,
+form,
+p,
+input,
+textarea {
+  margin: 0;
+  padding: 0;
+}
+a,
+input,
+div,
+textarea {
+  outline: none;
+}
+ul,
+dl,
+ol {
+  list-style: none;
+}
+i {
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+  color: #71512a;
+}
+a:hover {
+  color: #e69138;
+}
+body {
+  font-family: 'Microsoft YaHei';
+  font-size: 14px;
+}
+h5 {
+  font-size: 2em;
+}
+.clear {
+  clear: both;
+  height: 0;
+  line-height: 0;
+}
+.mgt10 {
+  margin-top: 10px;
+}
+.mgr10 {
+  margin-right: 10px;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.red {
+  color: #ff6600 !important;
+}
+.disnone {
+  display: none;
+}
+#head {
+  background: #e69138;
+  height: 80px;
+  color: #ffffff;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+}
+#head .cont {
+  position: relative;
+}
+.cont {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.logo {
+  position: absolute;
+  top: 11px;
+  left: 0;
+  width: 277px;
+  height: 57px;
+  background: url(../imgs/logo.png) no-repeat;
+}
+.nav {
+  float: right;
+}
+.nav a {
+  display: inline-block;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  width: 120px;
+  color: #fff;
+}
+.nav a:hover,
+.nav a.on {
+  background-color: #f0b679;
+}
+#round {
+  height: 480px;
+  overflow: hidden;
+}
+#round ul li {
+  float: left;
+}
+#content {
+  background-color: #ffffff;
+  min-height: 100px;
+}
+#content .msg {
+  height: 160px;
+  text-align: center;
+  padding: 20px 0;
+}
+#content .msg h5 {
+  margin: 10px 0;
+  font-weight: normal;
+}
+#content .msg p {
+  line-height: 2em;
+}
+#content .msg .aboutus {
+  margin-top: 30px;
+}
+.news {
+  width: 650px;
+  overflow: hidden;
+}
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ae9a82;
+  height: 2em;
+  border-bottom: 1px dotted #c3a879;
+}
+.title .more {
+  font-size: 14px;
+  float: right;
+  color: #71512a;
+  margin-top: .5em;
+  font-weight: 400;
+}
+.title .more:hover {
+  color: #e69138;
+}
+.newslist li {
+  padding: 10px 0;
+  border-top: 1px dashed #c3a879;
+}
+.newslist li:first-child {
+  border-top: 0px;
+}
+.newslist li p.newtitle a {
+  color: #71512a;
+}
+.newslist li p.newtitle a:hover {
+  color: #e69138;
+}
+.newslist li p.date {
+  color: #ccc7bf;
+  font-size: 10px;
+}
+#marquee {
+  height: 300px;
+  background-color: #c3a879;
+  position: relative;
+}
+#marquee .cont {
+  position: relative;
+  height: 300px;
+}
+.title-vertical {
+  position: absolute;
+  width: 36px;
+  height: 270px;
+  border: 3px solid #333;
+  top: 12px;
+  background-color: #c3a879;
+  z-index: 1;
+}
+.title-vertical .t {
+  display: block;
+  width: 80px;
+  height: 32px;
+  background-color: #c3a879;
+  position: absolute;
+  top: 10px;
+  left: 16px;
+  padding-right: 10px;
+}
+.title-vertical .t i {
+  display: block;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  font-size: 14px;
+  background-color: #e69138;
+  color: #ffffff;
+  font-style: normal;
+}
+.title-vertical-l {
+  height: 20px;
+  overflow: visible;
+  border-bottom: 1px dotted #333;
+  position: absolute;
+  width: 100%;
+  top: 20px;
+  text-align: right;
+}
+.title-vertical-l a:hover {
+  color: #ffffff;
+}
+.marqueelist {
+  margin: 50px 0 0 50px;
+}
+.marqueelist li {
+  float: left;
+  width: 270px;
+  height: 220px;
+  margin: 8px;
+  background-color: #aaa;
+  position: relative;
+  overflow: hidden;
+}
+.marqueelist li img {
+  width: 270px;
+  height: 220px;
+}
+.marqueelist li div {
+  height: 100px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: -100px;
+  transition: bottom .2s;
+  -webkit-transition: bottom .2s;
+}
+.marqueelist li:hover div {
+  bottom: 0;
+}
+.marqueelist li div p {
+  margin: 10px;
+}
+.address {
+  width: 650px;
+  padding: 10px;
+  overflow: hidden;
+  border: 1px solid #e69138;
+  height: 350px;
+}
+.address p {
+  color: #71512a;
+}
+.map {
+  height: 240px;
+}
+.contectus {
+  width: 500px;
+  color: #71512a;
+}
+.contectus p {
+  margin-bottom: 10px;
+}
+.contectus label {
+  line-height: 2em;
+}
+.banner {
+  padding: 10px 0;
+}
+.banner img {
+  width: 100%;
+}
+#foot {
+  background: #e69138;
+  height: 80px;
+  color: #fff;
+  margin-top: 10px;
+}
+.aboutus {
+  color: #e69138;
+  padding: 10px 50px;
+  border: 1px solid #e69138;
+  border-radius: 4px;
+}
+.aboutus:hover {
+  color: #ffffff;
+  background-color: #e69138;
+}
+.inpsty1 {
+  height: 32px;
+  line-height: 32px;
+  border: 1px dashed #aaa;
+  background-color: #eee;
+  width: 90%;
+  padding: 0 10px;
+}
+.textareasty1 {
+  border: 1px dashed #aaa;
+  background-color: #eee;
+  width: 90%;
+  padding: 10px;
+  font-family: 'Micfosoft YaHei';
+}
